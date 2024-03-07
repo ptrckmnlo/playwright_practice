@@ -20,8 +20,6 @@ test('2. Verify Subscription in Cart page', async ({ page }) => {
 })
 
 
-
-
 /*
 
 Test Case 10: Verify Subscription in home page
@@ -42,6 +40,5 @@ Test Case 11: Verify Subscription in Cart page
 6. Verify text 'SUBSCRIPTION'
 7. Enter email address in input and click arrow button
 8. Verify success message 'You have been successfully subscribed!' is visible
-
 
 */

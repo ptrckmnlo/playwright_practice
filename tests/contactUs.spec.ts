@@ -4,7 +4,7 @@ test.beforeEach(async ({page}) => {
     await page.goto('https://automationexercise.com/');
 });  
 
-test('Verify Contact Us Form submission is successful', async ({ page }) => {
+test('1. Verify Contact Us Form submission is successful', async ({ page }) => {
     await page.getByRole('link', {name: 'Contact Us'}).click();
     await page.waitForURL(/contact_us/);
 
